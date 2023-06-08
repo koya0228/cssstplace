@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/code.css">
+		<link rel="stylesheet" href="../css/logo.css">
+
+		<title>css素材置き場（自分用）</title>
+	</head>
+	<body>
+		<header id="header">
+			<div class="header-title-outer">
+				<p class="header-title">CSS素材置き場<span>（自分用）</span></p>
+			</div>
+		</header>
+		<main id="main">
+			<nav id="page-links">
+				<li class="page-link">
+					<a href="./home.html">
+						<p>READMEっぽいなにか</p>
+					</a>
+				</li>
+				<li class="page-link">
+					<a href="./button.html">
+						<p>ボタン</p>
+					</a>
+				</li>
+				<li class="page-link">
+					<a href="./checkbox.html">
+						<p>チェックボックス</p>
+					</a>
+				</li>
+				<li class="page-link this-page">
+					<a href="./logo.html">
+						<p>ロゴ</p>
+					</a>
+				</li>
+				<div class="nav-open">
+					<label>
+						<input type="checkbox" name="" id="">
+						<div class="open-lbl"></div>
+					</label>
+				</div>
+			</nav>
+
+			<div id="main-content">
+				<div class="contents-outer">
+					<h1 class="content-title">ロゴ</h1>
+
+					<!-- google chrome -->
+					<section class="section-outer">
+						<div class="section-title-outer">
+							<p class="section-title">Google Chrome</p>
+							<a href=">https://www.google.com/intl/ja_jp/chrome/" class="title-link">
+								<p>https://www.google.com/intl/ja_jp/chrome/</p>
+							</a>
+						</div>
+						<div class="section-viewer-outer">
+							<div class="section-viewer">
+								<div class="chrome-icon" draggable="true"></div>
+							</div>
+						</div>
+						<div class="code-area-outer">
+							<label class="code-opener">
+								<input type="checkbox">
+								<p class="code-title">CODE</p>
+							</label>
+							<div class="code-inner">
+								<div class="tab-tags">
+									<label class="tag html-tag">
+										<input type="radio" name="source-code230601243" class="tag html-tag" checked>
+										<p>HTML</p>
+									</label>
+									<label class="tag css-tag">
+										<input type="radio" name="source-code230601243" class="tag css-tag">
+										<p>CSS</p>
+									</label>
+								</div>
+								<div class="tab-contents">
+									<div class="content html-content">
+										<pre class="code-outer"><code class="html-code code-area">&lt;div class=&quot;chrome-icon&quot;&gt;&lt;/div&gt;</code></pre>
+									</div>
+									<div class="content css-content">
+										<pre class="code-outer"><code class="css-code code-area">.chrome-icon {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, #e43c2f 25%, transparent 25%), conic-gradient(#fcc115 33%, #229242 33% 67%, #e43c2f 67%);
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.chrome-icon::before,
+.chrome-icon::after {
+    content: &quot;&quot;;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0 auto auto 0;
+}
+.chrome-icon::before {
+    background: linear-gradient(to bottom, #229242 25%, transparent 25%);
+    transform: rotate(-120deg);
+}
+.chrome-icon::after {
+    background: radial-gradient(circle at center, #1a73e8 28.3%, #ffffff 28.3% 35.3%, transparent 35.3%), linear-gradient(to bottom, #fcc115 25%, transparent 25%);
+    transform: rotate(120deg);
+}</code></pre>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- power point -->
+					<section class="section-outer">
+						<div class="section-title-outer">
+							<p class="section-title">Microsoft PowerPoint</p>
+							<a href="https://www.microsoft.com/ja-jp/microsoft-365/powerpoint" class="title-link">
+								<p>https://www.microsoft.com/ja-jp/microsoft-365/powerpoint</p>
+							</a>
+						</div>
+						<div class="section-viewer-outer">
+							<div class="section-viewer">
+								<div class="pptx-icon" draggable="true">
+									<div class="pptx-bg"></div>
+									<div class="pptx-chara-p"></div>
+								</div>
+							</div>
+						</div>
+						<div class="code-area-outer">
+							<label class="code-opener">
+								<input type="checkbox">
+								<p class="code-title">CODE</p>
+							</label>
+							<div class="code-inner">
+								<div class="tab-tags">
+									<label class="tag html-tag">
+										<input type="radio" name="source-code230604124" class="tag html-tag" checked>
+										<p>HTML</p>
+									</label>
+									<label class="tag css-tag">
+										<input type="radio" name="source-code230604124" class="tag css-tag">
+										<p>CSS</p>
+									</label>
+								</div>
+								<div class="tab-contents">
+									<div class="content html-content">
+										<pre class="code-outer"><code class="html-code code-area">&lt;div class=&quot;pptx-icon&quot;&gt;
+    &lt;div class=&quot;pptx-bg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;pptx-chara-p&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+									</div>
+									<div class="content css-content">
+										<pre class="code-outer"><code class="css-code code-area">.pptx-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.pptx-bg {
+    width: 90.6%;
+    height: 90.6%;
+    background:  conic-gradient(#ff8f6b 25%, #d35230 25% 75%, #ed6c47 75%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    inset: auto 0 auto auto;
+    overflow: hidden;
+}
+.pptx-bg::before {
+    content: &quot;&quot;;
+    width: 56.1%;
+    height: 56.1%;
+    background: #000000;
+    opacity: 0.8;
+    position: absolute;
+    inset: 53% auto auto -12%;
+    transform: translateY(-50%);
+    filter: blur(3px);
+}
+.pptx-chara-p {
+    height: 50.8%;
+    aspect-ratio: 1;
+    background: #c9421e;
+    border-radius: 7.7%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pptx-chara-p::before {
+    content: &quot;&quot;;
+    width: 42.1%;
+    height: 54.1%;
+    background: linear-gradient(to right, #fefefe 26%, transparent 26%), radial-gradient(circle at 58.4% 32.3%, #fefefe 39.6%, transparent 39.6%), linear-gradient(to bottom, transparent 64.6%, #c9421e 64.6%), linear-gradient(to right, #fefefe 58.4%, transparent 58.4%);
+}
+.pptx-chara-p::after {
+    content: &quot;&quot;;
+    width: 19.7%;
+    height: 18.6%;
+    background: #c9421e;
+    border-radius: 0 50% 50% 0;
+    position: absolute;
+    inset: 31.1% auto auto 39.9%;
+}</code></pre>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- word -->
+					<section class="section-outer">
+						<div class="section-title-outer">
+							<p class="section-title">Microsoft Word</p>
+							<a href="https://www.microsoft.com/ja-jp/microsoft-365/word" class="title-link">
+								<p>https://www.microsoft.com/ja-jp/microsoft-365/word</p>
+							</a>
+						</div>
+						<div class="section-viewer-outer">
+							<div class="section-viewer">
+								<div class="word-icon">
+									<div class="docx-bg"></div>
+									<div class="docx-chara-w"></div>
+								</div>
+							</div>
+						</div>
+						<div class="code-area-outer">
+							<label class="code-opener">
+								<input type="checkbox">
+								<p class="code-title">CODE</p>
+							</label>
+							<div class="code-inner">
+								<div class="tab-tags">
+									<label class="tag html-tag">
+										<input type="radio" name="source-code230608432" class="tag html-tag" checked>
+										<p>HTML</p>
+									</label>
+									<label class="tag css-tag">
+										<input type="radio" name="source-code230608432" class="tag css-tag">
+										<p>CSS</p>
+									</label>
+								</div>
+								<div class="tab-contents">
+									<div class="content html-content">
+										<pre class="code-outer"><code class="html-code code-area">&lt;div class=&quot;word-icon&quot;&gt;
+    &lt;div class=&quot;docx-bg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;docx-chara-w&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+									</div>
+									<div class="content css-content">
+										<pre class="code-outer"><code class="css-code code-area">.word-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.docx-bg {
+    width: 76.2%;
+    height: 89.2%;
+    background: linear-gradient(to top, #103f91 25%, #185abd 25% 50%, #2b7cd3 50% 75%, #41a5ee 75%);
+    border-radius: 5.1%;
+    position: absolute;
+    inset: auto 0 auto auto;
+    overflow: hidden;
+}
+.docx-bg::before {
+    content: &quot;&quot;;
+    width: 56.1%;
+    height: 56.1%;
+    background: #000000;
+    opacity: 0.8;
+    position: absolute;
+    inset: 53% auto auto -20%;
+    transform: translateY(-50%);
+    filter: blur(3px);
+}
+.docx-chara-w {
+    height: 50.8%;
+    aspect-ratio: 1;
+    background: #1657ba;
+    border-radius: 7.7%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.docx-chara-w::before {
+    content: &quot;&quot;;
+    width: 70%;
+    height: 54.6%;
+    background: linear-gradient(77.6deg, transparent 14.6%, #fefefe 14.6% 27.4%, transparent 27.4% 53.1%, #fefefe 53.1% 66.4%, transparent 66.4%), linear-gradient(-77.6deg, transparent 14.6%, #fefefe 14.6% 27.4%, transparent 27.4% 53.1%, #fefefe 53.1% 66.4%, transparent 66.4%);
+}</code></pre>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer id="footer">
+			<p class="footer-author">Koya.</p>
+		</footer>
+
+		<script src="../js/code.js"></script>
+	</body>
+</html>

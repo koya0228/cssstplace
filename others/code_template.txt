@@ -1,0 +1,40 @@
+<section class="section-outer">
+	<div class="section-title-outer">
+		<p class="section-title">Google Chrome</p>
+		<a href="" class="title-link">
+			<p>https://xxx.xxx.xxx/xxxx.xxx</p>
+		</a>
+	</div>
+	<div class="section-viewer-outer">
+		<div class="section-viewer">
+			<button type="">ボタンです</button>
+		</div>
+	</div>
+	<div class="code-area-outer">
+		<label class="code-opener">
+			<input type="checkbox">
+			<p class="code-title">CODE</p>
+		</label>
+		<div class="code-inner">
+			<div class="tab-tags">
+				<label class="tag html-tag">
+					<input type="radio" name="source-code" class="tag html-tag" checked>
+					<p>HTML</p>
+				</label>
+				<label class="tag css-tag">
+					<input type="radio" name="source-code" class="tag css-tag">
+					<p>CSS</p>
+				</label>
+			</div>
+			<div class="tab-contents">
+				<div class="content html-content">
+					<pre class="code-outer"><code class="html-code code-area">&lt;button type&equals;&quot;&quot;&gt;ボタンです&lt;/button&gt;
+    &lt;button type&equals;&quot;&quot;&gt;ボタンです&lt;/button&gt;</code></pre>
+				</div>
+				<div class="content css-content">
+					<pre class="code-outer"><code class="css-code code-area">&lt;button type&equals;&quot;&quot;&gt;ボタンです&lt;/button&gt;</code></pre>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

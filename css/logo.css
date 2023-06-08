@@ -1,0 +1,129 @@
+/* google chrome */
+.chrome-icon {
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(to bottom, #e43c2f 25%, transparent 25%), conic-gradient(#fcc115 33%, #229242 33% 67%, #e43c2f 67%);
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+.chrome-icon::before,
+.chrome-icon::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	inset: 0 auto auto 0;
+}
+.chrome-icon::before {
+	background: linear-gradient(to bottom, #229242 25%, transparent 25%);
+	transform: rotate(-120deg);
+}
+.chrome-icon::after {
+	background: radial-gradient(circle at center, #1a73e8 28.3%, #ffffff 28.3% 35.3%, transparent 35.3%), linear-gradient(to bottom, #fcc115 25%, transparent 25%);
+	transform: rotate(120deg);
+} 
+
+/* ms powerpoint */
+.pptx-icon {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.pptx-bg {
+	width: 90.6%;
+	height: 90.6%;
+	background:  conic-gradient(#ff8f6b 25%, #d35230 25% 75%, #ed6c47 75%);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	inset: auto 0 auto auto;
+	overflow: hidden;
+}
+.pptx-bg::before {
+	content: "";
+	width: 56.1%;
+	height: 56.1%;
+	background: #000000;
+	opacity: 0.8;
+	position: absolute;
+	inset: 53% auto auto -12%;
+	transform: translateY(-50%);
+	filter: blur(3px);
+}
+.pptx-chara-p {
+	height: 50.8%;
+	aspect-ratio: 1;
+	background: #c9421e;
+	border-radius: 7.7%;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.pptx-chara-p::before {
+	content: "";
+	width: 42.1%;
+	height: 54.1%;
+	background: linear-gradient(to right, #fefefe 26%, transparent 26%), radial-gradient(circle at 58.4% 32.3%, #fefefe 39.6%, transparent 39.6%), linear-gradient(to bottom, transparent 64.6%, #c9421e 64.6%), linear-gradient(to right, #fefefe 58.4%, transparent 58.4%);
+}
+.pptx-chara-p::after {
+	content: "";
+	width: 19.7%;
+	height: 18.6%;
+	background: #c9421e;
+	border-radius: 0 9999px 9999px 0;
+	position: absolute;
+	inset: 31.1% auto auto 39.9%;
+}
+
+/* ms word */
+.word-icon {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.docx-bg {
+	width: 76.2%;
+	height: 89.2%;
+	background: linear-gradient(to top, #103f91 25%, #185abd 25% 50%, #2b7cd3 50% 75%, #41a5ee 75%);
+	border-radius: 5.1%;
+	position: absolute;
+	inset: auto 0 auto auto;
+	overflow: hidden;
+}
+.docx-bg::before {
+	content: "";
+	width: 56.1%;
+	height: 56.1%;
+	background: #000000;
+	opacity: 0.8;
+	position: absolute;
+	inset: 53% auto auto -20%;
+	transform: translateY(-50%);
+	filter: blur(3px);
+}
+.docx-chara-w {
+	height: 50.8%;
+	aspect-ratio: 1;
+	background: #1657ba;
+	border-radius: 7.7%;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.docx-chara-w::before {
+	content: "";
+	width: 70%;
+	height: 54.6%;
+	background: linear-gradient(77.6deg, transparent 14.6%, #fefefe 14.6% 27.4%, transparent 27.4% 53.1%, #fefefe 53.1% 66.4%, transparent 66.4%), linear-gradient(-77.6deg, transparent 14.6%, #fefefe 14.6% 27.4%, transparent 27.4% 53.1%, #fefefe 53.1% 66.4%, transparent 66.4%);
+}

@@ -1,0 +1,39 @@
+.contents-outer {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.contents-outer > p {
+	font-size: 1.8rem;
+}
+.contents-outer > .credit {
+	padding: 3px 8px 14px 8px;
+	border: 1px solid var(--colorGray);
+	box-shadow: inset 2px 2px var(--colorWhite), inset -2px -2px var(--colorWhite), inset 3px 3px var(--colorGray), inset -3px -3px var(--colorGray);
+}
+.contents-outer > .credit p {
+	font-size: 1.4rem;
+}
+.contents-outer > .credit a > p {
+	font-size: 1.2rem;
+}
+.contents-outer > .credit > p {
+	margin-top: 8px;
+}
+.contents-outer > .credit > p+li {
+	margin-left: 16px;
+	padding-left: 10px;
+	list-style: none;
+	position: relative;
+}
+.contents-outer > .credit > p+li::before {
+	content: '';
+	width: 6px;
+	height: 10px;
+	background: var(--colorBlack);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	clip-path: polygon(0 0, 0 10px, 6px 5px);
+}
